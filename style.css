@@ -1,0 +1,59 @@
+@font-face {
+  font-family: PlanetBubble;
+  src: url(https://file.garden/ZfMpn1A4xzfd-0Q2/fonts/PlanetBubble.TTF);
+}
+
+@font-face {
+  font-family: DigitalDisco;
+  src: url(https://file.garden/ZfMpn1A4xzfd-0Q2/fonts/DigitalDisco.ttf);
+}
+ 
+header { font-family: PlanetBubble; }
+
+* { color: #a10128; }
+
+p {
+  font-family: DigitalDisco;
+  text-align: justify;
+  width: 100%;
+  text-align-last: justify;
+  margin: 10px 0 0 0
+}
+
+#bannerimg {
+  height: 8em;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 4px;
+}
+
+#bannertxt {
+  position: absolute;
+  font-size: 3rem;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ff847d;
+  -webkit-text-stroke: 1px #e84545;
+}
+
+body {
+  align-content: center;
+  min-height: 100vh;
+  margin: 0px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://i.ytimg.com/vi/c1M5iHp2N3U/maxresdefault.jpg")
+}
+
+main {
+  margin: auto;
+  width: 30em;
+  border: double #ae071c;
+  padding: 1em 1.5em;
+  border-radius: 6px;
+  background: white;
+}
+
+* { cursor: url(https://cur.cursors-4u.net/others/oth-8/oth704.cur), auto !important; }
